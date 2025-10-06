@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StyleBot — твой личный стилист в Telegram</title>
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      background: linear-gradient(180deg, #fff 0%, #f9f9f9 100%);
+      color: #222;
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    header {
+      text-align: center;
+      padding: 120px 20px 80px;
+      background: radial-gradient(circle at center, #ffffff 0%, #f3f3f3 100%);
+      position: relative;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+      max-width: 520px;
+      margin: 0 auto 30px;
+    }
+    .btn {
+      background: linear-gradient(90deg, #111, #444);
+      color: #fff;
+      padding: 14px 28px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: linear-gradient(90deg, #000, #222);
+      transform: scale(1.05);
+    }
+    section {
+      padding: 80px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #111;
+      color: #eee;
+      text-align: center;
+      padding: 40px 20px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Твой стиль. Твоя уверенность. Без усилий.</h1>
+    <p>StyleBot подбирает образы под твои размеры, стиль и бюджет — как будто у тебя появился свой личный стилист.</p>
+    <a href="#" class="btn">Попробовать бесплатно</a>
+  </header>
+
+  <section>
+    <h2>Почему это нужно</h2>
+    <p style="text-align:center;max-width:600px;margin:auto;">Больше не нужно искать вдохновение в соцсетях или бегать по магазинам. Бот экономит время, деньги и силы — подбирая идеальные луки именно для тебя.</p>
+  </section>
+
+  <section>
+    <h2>Что уже умеет бот</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Готовые луки</h3>
+        <p>Экономь время — бот сразу показывает образы, которые подходят под твой стиль.</p>
+      </div>
+      <div class="card">
+        <h3>Подбор по бюджету</h3>
+        <p>StyleBot подбирает аналоги вещей из твоей ценовой категории — стиль без лишних трат.</p>
+      </div>
+      <div class="card">
+        <h3>Где купить</h3>
+        <p>Бот показывает, где купить каждую вещь — чаще всего это маркетплейсы рядом с тобой.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Скоро появится</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Личный профиль</h3>
+        <p>Размеры, бренды, любимые цвета — бот будет учитывать всё.</p>
+      </div>
+      <div class="card">
+        <h3>Распознавание вкуса</h3>
+        <p>Загрузи свои луки — бот поймёт твой стиль и подберёт похожие.</p>
+      </div>
+      <div class="card">
+        <h3>Подбор по случаям</h3>
+        <p>Работа, свидание, отпуск — подберём лук для любого события.</p>
+      </div>
+      <div class="card">
+        <h3>Виртуальная примерка</h3>
+        <p>Увидишь, как образ выглядит на тебе до покупки.</p>
+      </div>
+    </div>
+  </section>
+
+  <section style="text-align:center">
+    <h2>Попробуй прямо сейчас</h2>
+    <p>Ответь на несколько вопросов и получи свой первый идеальный образ.</p>
+    <a href="#" class="btn">Начать</a>
+  </section>
+
+  <footer>
+    <p>© 2025 StyleBot — личный стилист в Telegram</p>
+  </footer>
+</body>
+</html>
